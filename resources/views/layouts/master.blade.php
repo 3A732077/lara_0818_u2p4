@@ -31,6 +31,9 @@
 
   @include('layouts.partials.footer')
 
+  <!-- Contact Form JavaScript -->
+  <script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
+  <script src="{{asset('js/contact_me.js')}}"></script>
 
 
   <!-- Bootstrap core JavaScript -->
