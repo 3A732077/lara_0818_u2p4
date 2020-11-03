@@ -4,14 +4,14 @@
 
 @section('content')
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+            <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
           </div>
         </div>
       </div>
@@ -23,7 +23,7 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
-          <a href="post.html">
+          <a href="post.blade.php">
             <h2 class="post-title">
               Man must explore, and this is exploration at its greatest
             </h2>
@@ -37,7 +37,7 @@
         </div>
         <hr>
         <div class="post-preview">
-          <a href="post.html">
+          <a href="post.blade.php">
             <h2 class="post-title">
               I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
             </h2>
@@ -48,7 +48,7 @@
         </div>
         <hr>
         <div class="post-preview">
-          <a href="post.html">
+          <a href="post.blade.php">
             <h2 class="post-title">
               Science has not yet mastered prophecy
             </h2>
@@ -62,7 +62,7 @@
         </div>
         <hr>
         <div class="post-preview">
-          <a href="post.html">
+          <a href="post.blade.php">
             <h2 class="post-title">
               Failure is not an option
             </h2>
@@ -82,7 +82,7 @@
       </div>
     </div>
   </div>
-    
+
 @endsection
 
 
